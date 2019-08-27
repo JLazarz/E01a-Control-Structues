@@ -1,84 +1,85 @@
 Open main1.py. Before running it, what do you expect this program to do? 
-
+I expect it to ask me the question: What is my favorite color?
 Now right click on the window and select “Run Python File in Terminal”. Click in the bottom panel, and answer the question. Describe what happened. 
-
+A response of "PS C:\E01a-Control-Structues>" came up.
 What do you think the program did with what you typed?
-
+I beleive it took my response and tried to respond with its own.
 
 
 Open main2.py. Before running it, describe how this is different than main1.py. 
-
+There is a new command for color after the answer stage of main1.py.
 What do you think the color = input() will do? 
-
+It will say a color or will change the color of the text.
 Run the program in the terminal and answer the question. Did the program do what you expected?
-
+It repeated my color back to me.
 
 
 Open main3.py. Before running it, describe how this is different than main2.py. 
-
+There are new lines from ll to 14.
 What is happening on lines 11–14? 
-
+If I dont say the correct color, I will be scrutinized.
 Why are lines 12 and 14 indented? 
-
+Those are for the responses.
 Run the program and answer the question. What happens if you don’t capitalize Red? 
-
+I am scrutinized.
 What does this tell you about "color"?
-
+It must be the correct response down to the letter.
 
 
 Open main4.py. Before running it, describe how this is different than main2.py. 
-
+It gives multiple options for a correct response.
 What problem is this trying to solve? 
-
+The capital letter problem.
 Run the program and answer the question. What happens if you use some other capitalization scheme (i.e., “RED” or “reD“)?
-
+If you do not use exactly what it requires, you will be scrutinized.
 
 
 Open main5.py. What do you expect line 11 to do? 
-
+It will accept all forms of red.
 What problem is it trying to solve? 
-
+The capitalization problem.
 Run the program and answer the question. What happens if you add spaces before or after the word (i.e., “  RED  “ or “ red”)?
-
+If you add spaces it will be WRONG.
 
 
 Open main6.py. How is line 11 different than main5.py? 
-
+There is also the strip command.
 What would you guess .strip() is doing? 
-
+It will strip out anything beside commands.
 Run the program and answer the question. Is there another way of writing “red” that will break this logic?
-
+Put spaces between the letters.
 
 
 Open main7.py. Before running this program, how do you expect this to be different than main6.py? 
-
+If you type in "pink" it will tell you that you are close.
 What is the purpose of line 11? 
-
+It tells the logic that all colors need those commands.
 Run the program and answer the question.
-
+The logic works.
 
 
 Open main8.py. What is the purpose of line 11? 
-
+It allows for several options in the logic
 Why are lines 12–19 indented? 
-
+Those are all options under that certain "While"
 Run the program. What would happen if line 12 were moved before line 11 (and no longer indented)? 
-
+The question would not be repeated.
 Make that change and run the program again. To end any Python program, you can type ctrl-c.
-
+There is an indentation error.
 
 
 Open main9.py. What is happening on line 12? 
-
+If you answer red the program ends.
 What is the purpose of “count”? 
-
+It counts how many times you try.
 What is happening on line 22? 
-
+The logic will tell you how many tries that you took.
 Run the program.
-
+The logic works.
 
 *Extra credit:* open main10.py. Add a comment to each line describing what it is doing (a comment follows a pound sign [#]). 
 
 Commit your changes and push them back to the repository. 
 
 Did you do the extra credit?
+Yes
